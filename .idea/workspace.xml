@@ -4,56 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5304c1bd-477d-4749-a17e-964927561cdd" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_asyncio.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_bz2.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_ctypes.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_ctypes_test.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_decimal.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_elementtree.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_hashlib.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_lzma.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_multiprocessing.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_overlapped.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_queue.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_socket.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_sqlite3.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_ssl.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testbuffer.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testcapi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testclinic.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testclinic_limited.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testconsole.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testinternalcapi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testlimitedcapi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testmultiphase.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testsinglephase.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_tkinter.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/libcrypto-3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/libffi-8.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/libssl-3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pyexpat.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python313.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/select.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/tcl86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/tk86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/unicodedata.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/vcruntime140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/vcruntime140_1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/winsound.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/zlib1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
-    </list>
+    <list default="true" id="5304c1bd-477d-4749-a17e-964927561cdd" name="Changes" comment="replace a loop with a list for comprehension for tighter code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,8 +18,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LEEChaia"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/LEEChaia/pre-test.git",
@@ -88,7 +50,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "list-comprehension",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762733522753</updated>
-      <workItem from="1762733523818" duration="397000" />
+      <workItem from="1762733523818" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -122,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762733765217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="replace a loop with a list for comprehension for tighter code">
+      <option name="closed" value="true" />
+      <created>1762734219477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762734219477</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="replace a loop with a list for comprehension for tighter code" />
+    <option name="LAST_COMMIT_MESSAGE" value="replace a loop with a list for comprehension for tighter code" />
   </component>
 </project>
