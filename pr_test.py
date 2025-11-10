@@ -42,3 +42,6 @@ while keep_playing:
         # stop playing if the user refused to give an integer
         keep_playing = False
 print("Goodbye!")
+        # stop playing if the user refused to give an integer
+        keep_playing = False
+print("Goodbye!")
